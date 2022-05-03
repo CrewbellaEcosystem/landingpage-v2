@@ -12,3 +12,46 @@
     height: 3rem;
     cursor: pointer;
 }
+
+
+/* Desktops max-width:1280px */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .app-btn{
+        height: 2.8rem;
+    }
+    .app-btn img{
+        height: 2.8rem;
+    }
+}
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .app-btn{
+        height: 2.5rem;
+    }
+    .app-btn img{
+        height: 2.5rem;
+    }
+}
+
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .app-btn{
+        height: 2rem;
+    }
+    .app-btn img{
+        height: 2rem;
+    }
+}
+
+
+/* Mobile (Smartphone) max-width: 480px */
+@media only screen and (max-width: 480px) {
+    .app-btn{
+        height: 1.7rem;
+    }
+    .app-btn img{
+        height: 1.7rem;
+    }
+}

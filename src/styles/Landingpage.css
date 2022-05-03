@@ -292,6 +292,27 @@ font-family: 'Poppins', sans-serif; */
     .promt{
         font-size: 14px;
     }
+   /* Secondary app showcase - 2 */
+   .s2-mockup-right{
+        top: -2rem;
+        padding: 0rem;
+    }
+    .s2-mockup-left h2{
+        font-size: 1rem;
+    } 
+    .s2-mockup-left h2 span{
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .contract-signing-div{
+        height: 6rem;
+    }
+    .promt{
+        font-size: 14px;
+    }
+
 
 
 } 
@@ -349,6 +370,43 @@ font-family: 'Poppins', sans-serif; */
     }
 
 
+        /* Secondary app showcase - 2 */
+        .secondary-showcase-div-2{
+            height: 70vh; 
+        }
+        .s2-mockup-right{
+            top: -1rem;
+            padding: 0;
+        }
+        .s2-mockup-left h2{
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        } 
+        .s2-mockup-left h2 span{
+            font-size: 1.2rem;
+        }
+        .desc{
+            font-size: 0.8rem;
+        }
+        .contract-signing-div{
+            width: 100%;
+            height: 4rem;
+            margin: 1.5rem 0;
+        }
+            .contract-text{
+                width: 3.5rem;
+                height: 2.5rem;
+            }
+            .contract-signing-div label{
+                font-size: 0.8rem;
+            }
+        .promt{
+            font-size: 14px;
+        }
+        .app-btns-div{
+            gap: 1rem;
+        }
+    
 } 
 
 
@@ -409,24 +467,36 @@ font-family: 'Poppins', sans-serif; */
         padding: 3rem;
     }
 
+        /* Secondary app showcase - 2 */
+        .secondary-showcase-div-2{
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .s2-mockup-right{
+            position:relative;
+            width: 100%;
+            height: auto;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+        .s2-mockup-right img{
+            width: 80%;
+        }
+        .s2-mockup-left{
+            position: relative;
+            width: 100%;
+            height: 90%;
+            background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+            border-radius: 0;
+            padding: 3rem;
+        }
+    
     
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -447,4 +517,64 @@ font-family: 'Poppins', sans-serif; */
         width: 100%;
         margin-bottom: 2rem;
     }
+
+
+        /* Secondary app showcase - 1 */
+        .secondary-showcase-div{
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .s-mockup-left{
+            position:relative;
+            width: 100%;
+            height: 40vh;
+            padding: 1rem;
+        }
+        .s-mockup-left img{
+            width: 100%;
+        }
+        .s-mockup-right{
+            position: relative;
+            width: 100%;
+            height: 90%;
+            background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+            border-radius: 0;
+            padding: 3rem;
+        }
+    
+            /* Secondary app showcase - 2 */
+            .secondary-showcase-div-2{
+                position: relative;
+                width: 100%;
+                height: auto;
+                margin-top: 5rem;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .s2-mockup-right{
+                position:relative;
+                width: 100%;
+                height: 50vh;
+                padding: 1rem;
+                margin-top: 5rem;
+            }
+            .s2-mockup-right img{
+                width: 100%;
+            }
+            .s2-mockup-left{
+                position: relative;
+                width: 100%;
+                height: 90%;
+                background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+                border-radius: 0;
+                padding: 3rem;
+            }
+            .testimonials-div{
+                padding: 0;
+            }
+        
 } 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
+import { useMediaQuery } from 'react-responsive'
 // COMPONENTS
 import TestimonialCard from './TestimonialCard';
 // CSS
@@ -30,10 +31,16 @@ function SamplePrevArrow(props) {
 
 
 const Carousel = () => {
+
+    const Desktop = useMediaQuery({ minWidth: 1025, maxWidth: 1280 })
+    const Tablets = useMediaQuery({ minWidth: 768, maxWidth: 1024 })
+    const lowTablets = useMediaQuery({ minWidth: 481, maxWidth: 767 })
+    const smartphone = useMediaQuery({ maxWidth: 480 })
+
     let settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: smartphone ? 1 : lowTablets ? 1 : Tablets ? 2 : Desktop ? 3 : 3,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />

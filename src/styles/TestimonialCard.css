@@ -75,3 +75,56 @@
     .t-social-icons span{
         cursor: pointer;
     }
+
+/* Desktops max-width:1280px */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .testimonial-card{
+        position: relative;
+        width: 100%;
+        height: 25rem;
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(113.58deg, #171429 0%, #2D2B52 100%);
+    }
+}
+
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .testimonial-card{
+        position: relative;
+        width: 90%;
+        height: 25rem;
+        margin-left: 0%;
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(113.58deg, #171429 0%, #2D2B52 100%);
+    }
+}
+
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .testimonial-card{
+        position: relative;
+        width: 90%;
+        height: 25rem;
+        margin-left: 5%;
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(113.58deg, #171429 0%, #2D2B52 100%);
+    }
+}
+
+/* Mobile (Smartphone) max-width: 480px */
+@media only screen and (max-width: 480px){
+    .testimonial-card{
+        position: relative;
+        width: 90%;
+        height: 25rem;
+        margin-left: 5%;
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(113.58deg, #171429 0%, #2D2B52 100%);
+    }
+}   

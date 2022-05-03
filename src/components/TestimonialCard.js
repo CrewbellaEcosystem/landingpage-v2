@@ -1,6 +1,6 @@
 import React from 'react';
 // ICONS
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 // CSS
 import '../styles/TestimonialCard.css';
 // IMAGES
