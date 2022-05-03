@@ -1,0 +1,14 @@
+.app-btn{
+    width: auto;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+.app-btn img{
+    width: auto;
+    height: 3rem;
+    cursor: pointer;
+}

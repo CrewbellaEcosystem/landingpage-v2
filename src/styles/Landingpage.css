@@ -1,0 +1,450 @@
+/* font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l-main-div{
+    width: 100%;
+    height: auto; /* */
+    background-color: #F9F8FF;
+    position: relative;
+}
+    .l-main-top-div{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-image: url('../assets/images/top-bg.png');
+        background-position: center;
+        background-size: cover;
+    }
+        .l-content-div{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            padding: 10rem 10% 0 10%;
+            background: linear-gradient(293deg, #091124 10%, rgba(5, 19, 56, 0.404) 100%);
+        }
+            .welcome-text{
+                font-family: 'Oxygen', sans-serif;
+                font-size: 1rem;
+                color: #F6F6F6;
+            }
+            .main-text-content{
+                display: flex;
+                flex-direction: column ;
+                width: 100%;
+                height: 100%;
+            }
+            .main-text-content h1{
+                width: 60%;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 3.5rem;
+                color: #ffffff;
+                margin-bottom: 3rem;
+            }
+            .main-text-content h1 span{
+                color: #E43F3F;
+            }
+            .main-text-content h3{
+                width: 50%;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 150%;
+                color: #ffffff;
+                margin-bottom: 3rem;
+            }
+            .social-icon-div{
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+            }
+            .social-icon-div h4{
+                font-family: 'Oxygen', sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+                margin-bottom: 1rem;
+            }
+            .icons-div{
+                display: flex;
+                gap: 1rem;
+            }
+            .icons-div span{
+                font-size: 1.5rem;
+                color: #fff;
+            }
+
+/* Secondary app showcase - 1 */
+.secondary-showcase-div{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: 5rem;
+}
+    .s-mockup-left{
+        position: absolute;
+        top: -8rem;
+        width: 60%;
+        height: 90vh;
+        z-index: 2;
+        padding: 3rem;
+    }
+    .s-mockup-left img{
+        width: 90%;
+    }
+    .s-mockup-right{
+        position: absolute;
+        right: 0;
+        width: 65%;
+        height: 90%;
+        background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+        border-radius: 2rem 0 0 2rem;
+        padding: 3% 10% 2% 15%;
+    }
+    .s-mockup-right h2{
+        font-size: 1.2rem;
+        color: #DDD;
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    } 
+    .s-mockup-right h2 span{
+        color: #E43F3F;
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 1rem;
+        color: #a3a3a3;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .contract-signing-div{
+        width: 100%;
+        height: 8rem;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+        .contract-text{
+            width: 4.5rem;
+            height: 3rem;
+            background: rgba(208, 62, 62, 0.24);
+            border: 2px solid rgba(208, 62, 62, 0.56);
+            box-sizing: border-box;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contract-signing-div label{
+            font-size: 1.2rem;
+            color: #a3a3a3;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+    .promt{
+        font-size: 18px;
+        color: #cecece;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .app-btns-div{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+
+
+    /* Secondary app showcase - 2 */
+.secondary-showcase-div-2{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+    .s2-mockup-right{
+        position: absolute;
+        top: -7rem;
+        width: 50%;
+        height: 90vh;
+        z-index: 2;
+        padding: 3rem;
+    }
+    .s2-mockup-right img{
+        width: 95%;
+    }
+    .s2-mockup-left{
+        position: absolute;
+        left: 0;
+        width: 65%;
+        height: 90%;
+        background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+        border-radius: 0 2rem 2rem 0;
+        padding: 3% 10% 2% 10%;
+    }
+    .s2-mockup-left h2{
+        font-size: 1.2rem;
+        color: #DDD;
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    } 
+    .s2-mockup-left h2 span{
+        color: #E43F3F;
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 1rem;
+        color: #a3a3a3;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .contract-signing-div{
+        width: 100%;
+        height: 8rem;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+    .promt{
+        font-size: 18px;
+        color: #cecece;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .app-btns-div{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+
+/* Testimonials */
+.testimonials-div{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 2rem;
+    padding: 3% 10% 2% 10%;
+}
+.testimonials-div h3{
+    font-size: 1.2rem;
+    color: #3a3a3a;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.testimonials-div h3 span{
+    color: #E43F3F;
+    font-size: 1.5rem;
+}
+
+.footer-main-div{
+    width: 100%;
+    height: 30rem;
+}
+
+
+
+/* Desktops max-width:1280px */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .welcome-text{
+        font-size: 0.8rem;
+    }
+    .main-text-content h1{
+        width: 70%;
+        font-size: 3rem;
+    }
+    .main-text-content h1 span{
+        color: #E43F3F;
+    }
+    .main-text-content h3{
+        width: 70%;
+    }
+
+    /* Secondary app showcase - 1 */
+    .s-mockup-left{
+        top: -2rem;
+        padding: 0rem;
+    }
+    .s-mockup-right h2{
+        font-size: 1rem;
+    } 
+    .s-mockup-right h2 span{
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .contract-signing-div{
+        height: 6rem;
+    }
+    .promt{
+        font-size: 14px;
+    }
+
+
+} 
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .welcome-text{
+        font-size: 0.8rem;
+    }
+    .main-text-content h1{
+        width: 80%;
+        font-size: 3rem;
+    }
+    .main-text-content h1 span{
+        color: #E43F3F;
+    }
+    .main-text-content h3{
+        width: 70%;
+    }
+    /* Secondary app showcase - 1 */
+    .secondary-showcase-div{
+        height: 70vh; 
+    }
+    .s-mockup-left{
+        top: -1rem;
+        padding: 0;
+    }
+    .s-mockup-right h2{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    } 
+    .s-mockup-right h2 span{
+        font-size: 1.2rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .contract-signing-div{
+        width: 100%;
+        height: 4rem;
+        margin: 1.5rem 0;
+    }
+        .contract-text{
+            width: 3.5rem;
+            height: 2.5rem;
+        }
+        .contract-signing-div label{
+            font-size: 0.8rem;
+        }
+    .promt{
+        font-size: 14px;
+    }
+    .app-btns-div{
+        gap: 1rem;
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .welcome-text{
+        font-size: 0.8rem;
+    }
+    .main-text-content h1{
+        width: 90%;
+        font-size: 2.5rem;
+    }
+    .main-text-content h1 span{
+        color: #E43F3F;
+    }
+    .main-text-content h3{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    /* Secondary app showcase - 1 */
+    .secondary-showcase-div{
+        position: relative;
+        width: 100%;
+        height: 140vh;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .s-mockup-left{
+        position:relative;
+        width: 100%;
+        height: 60vh;
+        padding: 1rem;
+    }
+    .s-mockup-left img{
+        width: 90%;
+    }
+    .s-mockup-right{
+        position: relative;
+        width: 100%;
+        height: 90%;
+        background: linear-gradient(207.74deg, rgba(30, 25, 48, 0.95) 0%, rgba(6, 2, 25, 0.95) 102.37%);
+        border-radius: 0;
+        padding: 3rem;
+    }
+
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile (Smartphone) max-width: 480px */
+@media only screen and (max-width: 480px) {
+    .welcome-text{
+        font-size: 0.8rem;
+    }
+    .main-text-content h1{
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .main-text-content h1 span{
+        color: #E43F3F;
+    }
+    .main-text-content h3{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+} 

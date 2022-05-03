@@ -1,0 +1,123 @@
+.prof-main-div{
+    width: 100%;
+    height: auto;
+    padding: 5rem 10% 5rem 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+    .prof-main-div h3{
+        font-size: 18px;
+        color: #444444;
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 400;
+    }
+    .prof-main-div h3 span{
+        color: #E43F3F;
+        font-size: 32px;
+    }
+    .prof-content-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Professor card */
+    .prof-card{
+        display: flex;
+        flex-direction: column;
+        width: 16.66%;
+        height: 35vh;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+        .prof-card h4{
+            font-size: 1rem;
+            color: #444444;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 400;
+        }
+    .prof-image{
+        width: 90%;
+        height: auto;
+        position: relative;
+        border-radius: 50%;
+    }
+    .prof-card:hover .prof-image-overlay{
+        background: linear-gradient(323.68deg, #b42c2c 5.99%, rgba(33, 5, 5, 0.53) 91.63%);
+    }
+    .prof-card:hover h4{
+        color: #E43F3F;
+        font-weight: 400;
+    }
+    .prof-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .prof-image-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: linear-gradient(323.68deg, rgba(208, 62, 62, 0.5) 5.99%, rgba(33, 5, 5, 0.2) 91.63%);
+    }
+
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .prof-main-div h3{
+        font-size: 16px;
+    }
+    .prof-main-div h3 span{
+        font-size: 28px;
+    }
+    /* Professor card */
+    .prof-card{
+        width: 25%;
+        height: 35vh;
+    }
+    .prof-card h4{
+        font-size: 1rem;
+    }
+
+} 
+
+/* Low Resolution Tablets and ipads max-width: 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .prof-main-div h3{
+        font-size: 16px;
+    }
+    .prof-main-div h3 span{
+        font-size: 24px;
+    }
+    /* Professor card */
+    .prof-card{
+        width: 25%;
+        height: 30vh;
+    }
+    .prof-card h4{
+        font-size: 0.8rem;
+    }
+} 
+
+/* Mobile (Smartphone) max-width: 480px */
+@media only screen and (max-width: 480px) {
+    .prof-main-div h3{
+        font-size: 12px;
+    }
+    .prof-main-div h3 span{
+        font-size: 18px;
+    }
+    /* Professor card */
+    .prof-card{
+        width: 33.33%;
+        height: 25vh;
+    }
+    .prof-card h4{
+        font-size: 0.8rem;
+    }
+} 
